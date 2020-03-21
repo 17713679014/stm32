@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib -I ..\FWlib\src
+-I.\RTE\_ADC-DEMO
+-IC:\Users\xuejintao\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-I"D:\new software\keil5_latest\ARM\CMSIS\Include"
+-IC:\Users\xuejintao\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0
+-D__UVISION_VERSION="528" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d "..\FWlib\src\stm32f10x_tim.c"
